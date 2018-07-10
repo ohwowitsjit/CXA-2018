@@ -1,0 +1,24 @@
+
+@keyframes menu-icon-hover-on {
+  0% {
+    background-color: #47ADD2;
+    transform: scale(1) translate(0, -50%);
+  }
+
+  100%{
+    background-color: #FF33D2;
+    transform: scale(1.5) translate(0, -20%);
+  }
+}
+
+@keyframes menu-icon-hover-off {
+  100% {
+    background-color: #47ADD2;
+    transform: scale(1) translate(0, -50%);
+  }
+
+  0%{
+    background-color: #FF33D2;
+    transform: scale(1.5) translate(0, -20%);
+  }
+}

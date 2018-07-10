@@ -1,0 +1,160 @@
+.menu-icon {
+  position: fixed;
+  margin-left: 100vh;
+  margin-right: auto;
+  background-color: #47ADD2;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transform: translate(0, -50%);
+  animation-name: menu-icon-hover-off;
+  animation-duration: 500ms;
+}
+
+.menu-icon:hover {
+  animation-name: menu-icon-hover-on;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+h1, p {
+  font-family: nunito-light;
+}
+
+
+.workspace {
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Side bar content*/
+.sidebar {
+  content: '';
+  display: block;
+  position: fixed;
+  margin: 0 auto;
+  width: 30px;
+  height: 100vh;
+  background-color: #274DB2;
+  animation-name: sidebar-hover-off;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+.sidebar:hover {
+  animation-name: sidebar-hover-on;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+.sidebar-icon {
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  margin:  5px;
+  padding: 3px;
+}
+
+.sidebar-icon-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sidebar-icon-bottom {
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  margin:  5px;
+  padding: 3px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+/* Content Card Styling*/
+.content-card {
+  position: relative;
+  margin: 5px;
+  height: 200px;
+  width: 500px;
+  background-color: #eee;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding:30px;
+  animation-name: content-card-hover-off;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+.content-card:hover {
+  animation-name: content-card-hover-on;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #FF33D2;
+  top: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+}
+
+/*
+.menu-icon:hover .menu-content {
+  display: block;
+}
+*/
+
+
+
+
+
+
+
+.content-box {
+  margin: 0 auto;
+  position: relative;
+  height: 300px;
+  width: 80%;
+  opacity: 0.8;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  border: 3px solid #bbb;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.content-box:hover{
+  animation-name: content-box-hover;
+  animation-duration:300ms;
+  opacity: 1;
+}

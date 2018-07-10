@@ -1,0 +1,48 @@
+
+@keyframes sidebar-hover-on {
+  0% {
+    width: 30px;
+  }
+
+  100% {
+    width: 40px;
+  }
+}
+
+@keyframes sidebar-hover-off {
+  100% {
+    width: 30px;
+  }
+
+  0% {
+    width: 40px;
+  }
+}
+
+@keyframes content-card-hover-on {
+  0% {
+    transform: scale(1) translateY(0);
+    z-index: auto;
+    box-shadow: none;
+  }
+
+  100% {
+    transform: scale(1.05) translateY(-5%);
+    z-index: 5;
+    box-shadow: 5px 5px #777777;
+  }
+}
+
+@keyframes content-card-hover-off {
+  0% {
+    transform: scale(1.05) translateY(-5%);
+    z-index: 5;
+    box-shadow: 5px 5px #777777;
+  }
+
+  100% {
+    transform: scale(1) translateY(0);
+    z-index: auto;
+    box-shadow: none;
+  }
+}
