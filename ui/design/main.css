@@ -1,0 +1,61 @@
+@font-face {
+  font-family: nunito-light;
+  src: url('../design/nunito/Nunito-Light.ttf');
+}
+
+@font-face {
+  font-family: avenir;
+  src: url();
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-icon {
+  position: fixed;
+  margin-left: 100vh;
+  margin-right: auto;
+  background-color: #47ADD2;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transform: translate(0, -50%);
+  animation-name: menu-icon-hover-off;
+  animation-duration: 500ms;
+}
+
+.menu-icon:hover {
+  animation-name: menu-icon-hover-on;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+
+div.header-bar {
+  height: 80px;
+  width: 100%;
+  background-color: #47ADD2;
+  position: relative;
+}
+
+ul.navbar {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.navbar li {
+  color: red
+  display: inline-block;
+}
+
+ul.navbar li p{
+  font-family: nunito-light;
+  display: inline-block;
+}
